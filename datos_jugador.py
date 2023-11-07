@@ -56,8 +56,8 @@ def obtener_resultados():
     db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="123456",
-    database="DatosTrivia"
+    password="123456789",
+    database="datosTrivia"
 )
     cursor = db.cursor()
     try:
